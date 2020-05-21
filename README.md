@@ -1,6 +1,6 @@
 # README #
 
-Repository for a programming crash course in Python for biologists and psychologists at the Cortical Networks Lab, IDIBAPS.
+Repository for a programming crash course in Python. Intended audience are biologists and psychologists working in neuroscience. This course has been taught at the Cortical Networks Lab, IDIBAPS.
 
 ## Instructors:
 
@@ -18,5 +18,25 @@ All errors and confusions are most probably due to our alterations of the origin
 ## License:
 
 The materials of this course are available under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/), which means that you are free to copy, distribute, and modify it, as long as you attribute the work and don’t use it for commercial purposes and you should also redistribute using the same license.
+
+## Outline
+
+
+The course is taught throught jupyter notebooks with an hands-on focus.
+
+Each notebook correspond to one 2 hours session.
+
+At the end of each notebook there are some exercises. During programming labs the exercises are solved collectively and different solutions are discussed (corresponding notebooks are a collection of exercises in previous notebook and new exercises).
+
+The order of notebooks is the following:
+
+1. [variables](variables.ipynb)
+2. [functions](functions.ipynb)
+3. [conditionals and recursion](conditionals.ipynb)
+4. [sequences](sequences.ipynb)
+5. [programming lab 1](exercises_1.ipynb)
+6. [programming lab 2](exercises_1.ipynb)
+
+
 
 
