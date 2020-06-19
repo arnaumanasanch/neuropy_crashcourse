@@ -36,6 +36,8 @@ The order of notebooks is the following:
 4. [sequences](sequences.ipynb)
 5. [programming lab 1](exercises_1.ipynb)
 6. [programming lab 2](exercises_1.ipynb)
+7. [numpy](numpy.ipynb)
+8. [dictionaries](dictionaries.ipynb)
 
 
 
