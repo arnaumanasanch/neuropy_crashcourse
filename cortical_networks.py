@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
 
 def make_linear_data(n, c=0, a=1, b=.1, xlow=0, xhigh=10):
