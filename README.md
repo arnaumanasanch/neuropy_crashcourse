@@ -40,6 +40,8 @@ The order of notebooks is the following:
 8. [dictionaries](dictionaries.ipynb)
 9. [tuples](tuples.ipynb)
 10. [files](files.ipynb)
+11a. [DataFrames](pandas.ipynb)
+11b. [Distributions](distributions.ipynb)
 
 
 
