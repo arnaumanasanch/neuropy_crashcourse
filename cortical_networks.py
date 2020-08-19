@@ -19,17 +19,14 @@ def make_dampedsin_data(n, c=0, a=1, f=.1, b=.1, xlow=0, xhigh=10):
     y = c + a * np.exp(-x) * np.sin(2*np.pi*f*x) + b * eta
     return x, y
 
-def make_syn_data(n, model='linear', params=[0, 1, .1], xlow=0, xhigh=10):
+def make_syn_data(n, model='linear', xlow=0, xhigh=10, **kwargs):
     if model == 'linear':
-        c, a, b = params
-        x, y = make_linear_data(n, c, a, b, xlow, xhigh)
+        x, y = make_linear_data(n, xlow=xlow, xhigh=xhigh, **kwargs)
     elif model == 'sine':
-        c, a, f, b = params
-        x, y = make_sin_data(n, c, a, f, b, xlow, xhigh)
+        x, y = make_sin_data(n, xlow=xlow, xhigh=xhigh, **kwargs)
     elif model == 'damped sine':
-        c, a, f, b = params
-        x, y = make_dampedsin_data(n, c, a, f, b, xlow, xhigh)
+        x, y = make_dampedsin_data(n, xlow=xlow, xhigh=xhigh, **kwargs)
     else:
-        raise ValueError("model has to be 'linear', 'sine' or 'damped sine'")
+        raise ValueError("model has to be 'linear', 'sine' or 'damped sine' but '{}' was given".format(model))
             
     return x, y
