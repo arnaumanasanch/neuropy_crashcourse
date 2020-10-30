@@ -11,7 +11,7 @@ Repository for a programming crash course in Python. Intended audience are biolo
 
 This course is mainly based upon the excellent book "How to think like a computer scientist" by Allen Downey, freely downloadable from here: https://greenteapress.com/wp/think-python-2e/
 
-We omitted some sections and summarized others in order to adjust the contents to the expected audience. We also included some additional contents that are usually needed for the analysis of neuroscience data (mainly numpy, matplotlib, pandas).
+We omitted some sections and summarized others in order to adjust the contents to the expected audience. We also included some additional contents that are usually needed for the analysis of neuroscience data (mainly numpy, basic statistics with pandas, visualization with matplotlib and seaborn).
 
 All errors and confusions are most probably due to our alterations of the original book.
 
@@ -21,8 +21,7 @@ The materials of this course are available under the [Creative Commons Attributi
 
 ## Outline
 
-
-The course is taught throught jupyter notebooks with an hands-on focus.
+The course is taught throught jupyter notebooks with a hands-on focus.
 
 Each notebook correspond to one 2 hours session.
 
@@ -30,19 +29,20 @@ At the end of each notebook there are some exercises. During programming labs th
 
 The order of notebooks is the following:
 
-1. [variables](variables.ipynb)
-2. [functions](functions.ipynb)
-3. [conditionals and recursion](conditionals.ipynb)
-4. [sequences](sequences.ipynb)
-5. [programming lab 1](exercises_1.ipynb)
-6. [programming lab 2](exercises_1.ipynb)
-7. [numpy](numpy.ipynb)
-8. [dictionaries](dictionaries.ipynb)
-9. [tuples](tuples.ipynb)
-10. [files](files.ipynb)
-11a. [DataFrames](pandas.ipynb)
-11b. [Distributions](distributions.ipynb)
+1. [variables](1_variables.ipynb)
+2. [functions](2_functions.ipynb)
+3. [conditionals and recursion](3_conditionals.ipynb)
+4. [sequences](4_sequences.ipynb)
+5. [numpy](5_numpy.ipynb)
+6. [dictionaries](6_dictionaries.ipynb)
+7. [tuples](7_tuples.ipynb)
+8. [files](8_files.ipynb)
+9. [DataFrames](9_pandas.ipynb)
+10. [distributions](10_distributions.ipynb)
+11. [visualization](11_visualization.ipynb)
 
+There are also two notebooks for programming labs with collections of exercises from different notebooks plus some extra exercises:
 
-
+1. [programming lab 1](exercises_1.ipynb)
+2. [programming lab 2](exercises_2.ipynb)
 
