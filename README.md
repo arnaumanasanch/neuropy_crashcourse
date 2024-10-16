@@ -4,7 +4,7 @@ Repository for a programming crash course in Python. Intended audience are biolo
 
 ## Instructors:
 
-* Arnau Manasanch
+* [Arnau Manasanch](www.linkedin.com/in/arnau-manasanch)
 * [Andrea Insabato](https://andreainsabato.eu)
 
 ## Credits:
